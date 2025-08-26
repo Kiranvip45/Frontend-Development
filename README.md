@@ -24,7 +24,8 @@ It provides interactive navigation, hover effects, smooth transitions, and a lig
 
 ## Screenshots
 ![image alt](<img width="2000" height="2588" alt="image" src="https://github.com/user-attachments/assets/17ba4817-738c-441f-a692-7d697666aa23" />)
-![image alt]
+![image alt](<img width="2000" height="2588" alt="image" src="https://github.com/user-attachments/assets/3e5b0323-a2b8-46c7-8ef0-7b8c2ab22915" />)
+
 
 
 
