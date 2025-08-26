@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Responsive Image Gallery</h1>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="city">City</button>
+      <button class="filter-btn" data-filter="people">People</button>
+    </div>
+
+    <section class="gallery-grid">
+      <!-- each .gallery-item has a data-category -->
+      <figure class="gallery-item" data-category="nature">
+        <img src="https://picsum.photos/id/1015/800/600" alt="Nature 1" data-title="Mountain view">
+        <figcaption>Mountain view</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="city">
+        <img src="https://picsum.photos/id/1011/800/600" alt="City 1" data-title="City skyline">
+        <figcaption>City skyline</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="people">
+        <img src="https://picsum.photos/id/1005/800/600" alt="People 1" data-title="Smiling person">
+        <figcaption>Smiling person</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="nature">
+        <img src="https://picsum.photos/id/1025/800/600" alt="Nature 2" data-title="Forest path">
+        <figcaption>Forest path</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="city">
+        <img src="https://picsum.photos/id/1031/800/600" alt="City 2" data-title="Bridge">
+        <figcaption>Bridge</figcaption>
+      </figure>
+
+      <figure class="gallery-item" data-category="people">
+        <img src="https://picsum.photos/id/1027/800/600" alt="People 2" data-title="Person portrait">
+        <figcaption>Person portrait</figcaption>
+      </figure>
+
+      <!-- add more images as desired -->
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true">
+    <button id="lb-close" class="lb-btn" title="Close">✕</button>
+    <button id="lb-prev" class="lb-btn" title="Previous">‹</button>
+    <img id="lb-img" src="" alt="">
+    <button id="lb-next" class="lb-btn" title="Next">›</button>
+    <p id="lb-caption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
