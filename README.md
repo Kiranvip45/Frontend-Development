@@ -17,9 +17,15 @@ It provides interactive navigation, hover effects, smooth transitions, and a lig
 ## 📂 Project Structure  
 
 
-#Technologies Used
+# Technologies Used
 -HTML5
 -CSS3(Flexbox/Grid,Transitions)
 -Javascript (ES6)
+
+## Screenshots
+![image alt](<img width="2000" height="2588" alt="image" src="https://github.com/user-attachments/assets/17ba4817-738c-441f-a692-7d697666aa23" />)
+![image alt]
+
+
 
 
